@@ -68,8 +68,8 @@ model OperationStatus {
 @resource("projects")
 @projectedName("csharp", "DevCenterProject")
 model Project {
+  #suppress "@azure-tools/typespec-azure-core/key-visibility-required"
   @key("projectName")
-  @visibility("read")
   @doc("Name of the project")
   name: string;
 

@@ -329,8 +329,7 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "Name of the project",
-          "readOnly": true
+          "description": "Name of the project"
         },
         "description": {
           "type": "string",
